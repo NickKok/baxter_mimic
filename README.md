@@ -4,9 +4,11 @@ This was developed for the Cineglobe 2018 film festival at CERN. It's very rough
 I'd like to thank everyone who wrote the code underneath in many, many libraries which we used to build this in about 5 hours.
 
 Here's what the processing sketch looks like when it's working:
+
 [![Processing extracting a human skeleton](https://img.youtube.com/vi/WJ7nlJ3kOXQ/0.jpg)](https://www.youtube.com/watch?v=WJ7nlJ3kOXQ)
 
 And here is an example of the robot copying a human:
+
 [![The robot is alive!](https://img.youtube.com/vi/X5iLGqhf2Kw/0.jpg)](https://www.youtube.com/watch?v=X5iLGqhf2Kw)
 
 It's a long way short of a good kinematic example, but it does work. We used the software we used because we only had a Kinect 1 to play with, you could do something much better with a Kinect 2.
