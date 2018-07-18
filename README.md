@@ -13,10 +13,11 @@ And here is an example of the robot copying a human:
 
 It's a long way short of a good kinematic example, but it does work. We used the software we used because we only had a Kinect 1 to play with, you could do something much better with a Kinect 2.
 
-# Software requirements
-We got our demo running in Ubuntu 14.04 LTS on an i7 870 CPU with 8GB of ram.
+# Software + Hardware requirements
+We got our demo running in Ubuntu 14.04 LTS on an i7 870 CPU with 8GB of RAM.
+The Kinect V1 is the unit from the Xbox 360, it requires a USB adapter to connect to a computer.
 You'll need Processing version 2.2.1 (an old version) and the Open/SimpleNI libraries for it to get the Kinect working.
-At the robot end, we had a Baxter from Rethink Robotics, running ROS (internally) and then a ROS session on our computer to connect to it.
+At the robot end, we had a Baxter from Rethink Robotics, running ROS (internally) and then a ROS session on our computer to connect to it. In between we had our own private LAN with a router acting as DHCP server.
 
 # Conclusion
 It worked as we hoped, the Kinect would occasionally lose people. 
